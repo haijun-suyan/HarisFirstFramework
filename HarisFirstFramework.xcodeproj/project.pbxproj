@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D0C1D36F4EAA40E37A4B8C4 /* Pods_HarisFirstFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688D4CEDEE9B4A31838DE240 /* Pods_HarisFirstFramework.framework */; };
+		F3A056FC236AC7DC0037E91D /* SayHelloFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A056FA236AC7DC0037E91D /* SayHelloFunc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3A056FD236AC7DC0037E91D /* SayHelloFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A056FB236AC7DC0037E91D /* SayHelloFunc.m */; };
+		F3F841C52ADFDCA1008347C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F841C42ADFDCA1008347C6 /* UIKit.framework */; };
+		F3F841C72ADFE91E008347C6 /* HarisFirstFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F841C62ADFE91E008347C6 /* HarisFirstFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0261B855DB407C0062AFB73D /* Pods-HarisFirstFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarisFirstFramework.debug.xcconfig"; path = "Target Support Files/Pods-HarisFirstFramework/Pods-HarisFirstFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		4626E84B96C0D7E08DEF0701 /* Pods-HarisFirstFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarisFirstFramework.release.xcconfig"; path = "Target Support Files/Pods-HarisFirstFramework/Pods-HarisFirstFramework.release.xcconfig"; sourceTree = "<group>"; };
+		688D4CEDEE9B4A31838DE240 /* Pods_HarisFirstFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarisFirstFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A056EF236AB6520037E91D /* HarisFirstFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HarisFirstFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A056F3236AB6520037E91D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A056FA236AC7DC0037E91D /* SayHelloFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SayHelloFunc.h; sourceTree = "<group>"; };
+		F3A056FB236AC7DC0037E91D /* SayHelloFunc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SayHelloFunc.m; sourceTree = "<group>"; };
+		F3F841C42ADFDCA1008347C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F3F841C62ADFE91E008347C6 /* HarisFirstFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HarisFirstFramework.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3A056EC236AB6520037E91D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F841C52ADFDCA1008347C6 /* UIKit.framework in Frameworks */,
+				7D0C1D36F4EAA40E37A4B8C4 /* Pods_HarisFirstFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19E6C92D0FE973DB7628D08B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0261B855DB407C0062AFB73D /* Pods-HarisFirstFramework.debug.xcconfig */,
+				4626E84B96C0D7E08DEF0701 /* Pods-HarisFirstFramework.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		37CF6A93B603AF3E90011A83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3F841C42ADFDCA1008347C6 /* UIKit.framework */,
+				688D4CEDEE9B4A31838DE240 /* Pods_HarisFirstFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3A056E5236AB6520037E91D = {
+			isa = PBXGroup;
+			children = (
+				F3A056F1236AB6520037E91D /* HarisFirstFramework */,
+				F3A056F0236AB6520037E91D /* Products */,
+				19E6C92D0FE973DB7628D08B /* Pods */,
+				37CF6A93B603AF3E90011A83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3A056F0236AB6520037E91D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3A056EF236AB6520037E91D /* HarisFirstFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3A056F1236AB6520037E91D /* HarisFirstFramework */ = {
+			isa = PBXGroup;
+			children = (
+				F3F841C62ADFE91E008347C6 /* HarisFirstFramework.h */,
+				F3A056FA236AC7DC0037E91D /* SayHelloFunc.h */,
+				F3A056FB236AC7DC0037E91D /* SayHelloFunc.m */,
+				F3A056F3236AB6520037E91D /* Info.plist */,
+			);
+			path = HarisFirstFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F3A056EA236AB6520037E91D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F841C72ADFE91E008347C6 /* HarisFirstFramework.h in Headers */,
+				F3A056FC236AC7DC0037E91D /* SayHelloFunc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F3A056EE236AB6520037E91D /* HarisFirstFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A056F7236AB6520037E91D /* Build configuration list for PBXNativeTarget "HarisFirstFramework" */;
+			buildPhases = (
+				4E3B4FE91388FB90E21E64F9 /* [CP] Check Pods Manifest.lock */,
+				F3A056EA236AB6520037E91D /* Headers */,
+				F3A056EB236AB6520037E91D /* Sources */,
+				F3A056EC236AB6520037E91D /* Frameworks */,
+				F3A056ED236AB6520037E91D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HarisFirstFramework;
+			productName = HarisFirstFramework;
+			productReference = F3A056EF236AB6520037E91D /* HarisFirstFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3A056E6236AB6520037E91D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = haijunyan;
+				TargetAttributes = {
+					F3A056EE236AB6520037E91D = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = F3A056E9236AB6520037E91D /* Build configuration list for PBXProject "HarisFirstFramework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F3A056E5236AB6520037E91D;
+			productRefGroup = F3A056F0236AB6520037E91D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3A056EE236AB6520037E91D /* HarisFirstFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3A056ED236AB6520037E91D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E3B4FE91388FB90E21E64F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HarisFirstFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3A056EB236AB6520037E91D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A056FD236AC7DC0037E91D /* SayHelloFunc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F3A056F5236AB6520037E91D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3A056F6236AB6520037E91D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3A056F8236AB6520037E91D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0261B855DB407C0062AFB73D /* Pods-HarisFirstFramework.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NCL9H5966U;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HarisFirstFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = haijunyan.HarisFirstFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3A056F9236AB6520037E91D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4626E84B96C0D7E08DEF0701 /* Pods-HarisFirstFramework.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NCL9H5966U;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HarisFirstFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = haijunyan.HarisFirstFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3A056E9236AB6520037E91D /* Build configuration list for PBXProject "HarisFirstFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A056F5236AB6520037E91D /* Debug */,
+				F3A056F6236AB6520037E91D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3A056F7236AB6520037E91D /* Build configuration list for PBXNativeTarget "HarisFirstFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A056F8236AB6520037E91D /* Debug */,
+				F3A056F9236AB6520037E91D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3A056E6236AB6520037E91D /* Project object */;
+}
